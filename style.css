@@ -1,0 +1,6 @@
+.carousel-control-prev:hover,
+.carousel-control-next:hover{
+    background-color: rgba(0, 0, 0, 0.123); /* dark translucent overlay */
+    transition: background-color 0.3s ease;
+}
+  
