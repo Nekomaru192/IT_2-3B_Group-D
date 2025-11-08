@@ -3,4 +3,9 @@
     background-color: rgba(0, 0, 0, 0.123); /* dark translucent overlay */
     transition: background-color 0.3s ease;
 }
-  
+
+ .carousel-item img {
+    height: 500px;         
+    width: 100%;
+    object-fit: cover;     
+  }
