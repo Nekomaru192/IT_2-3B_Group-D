@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 350px;
+  gap: 290px;
   padding: 10px 20px;
   border-bottom: 1px solid rgb(230, 225, 225);
 }
@@ -16,7 +16,7 @@
 
 .nav{
   display: flex ;
-  gap: 30px;
+  gap: 28px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -28,6 +28,18 @@
   border-radius: 10px;
   transition: background-color 0.3s ease;
   padding: 10px 10px 10px 10px;
+}
+
+.ads{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 55vh;
+}
+
+.ad-img{
+  width: 60%;
 }
 
   .about {
