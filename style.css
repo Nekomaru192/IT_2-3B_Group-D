@@ -19,5 +19,66 @@
     color: white !important;
   }
 
+  .about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding: 100px 0;
+  background-color: #fff8e1; 
+  border-top: 4px solid #a4161a;
+  border-bottom: 4px solid #a4161a;
+}
+
+.about-img {
+  flex: 1 1 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-img img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.about-content {
+  flex: 1 1 500px;
+  text-align: left;
+  padding: 20px;
+}
+
+.about-content h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;        
+  font-weight: 700;
+  color: #a4161a;
+  margin-bottom: 15px;
+  position: relative;
+}
+.about-content h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #f4c430; 
+  margin-top: 8px;
+  border-radius: 2px;
+}
+
+
+.about-content p {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 16px;
+}
+
+
+
+
 
 
