@@ -43,6 +43,7 @@
 
 .ad-img{
   width: 60%;
+  transition: transform 0.3s ease;
 
 }
 
@@ -56,6 +57,7 @@
   background-color: #fff8e1; 
   border-top: 4px solid #a4161a;
   border-bottom: 4px solid #a4161a;
+  transition: all 0.3s ease;
 }
 
 .about-img {
@@ -69,6 +71,7 @@
   max-width: 450px;
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .about-content {
