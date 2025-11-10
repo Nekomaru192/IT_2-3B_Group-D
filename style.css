@@ -1,4 +1,10 @@
-.navbar{
+html{
+  font-family: dm-sans, sans-serif;
+}
+
+
+/* Navbar Styles */
+.navbar {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -6,58 +12,110 @@
   gap: 290px;
   padding: 10px 20px;
   border-bottom: 1px solid rgb(230, 225, 225);
-  transition: all 0.3s ease;
 }
 
-.nav-item{
+.nav-item {
   color: black;
   text-decoration: none;
   font-size: larger;
   transition: all 0.3s ease;
 }
 
-.nav{
-  display: flex ;
+.nav {
+  display: flex;
+  align-items: center;
   gap: 28px;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.nav-item:hover{
+.home{
   color: white;
   background-color: #8f1a1c;
   border-radius: 10px;
-  transform:  scale(1.05);
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px;
 }
 
-.ads{
+.nav-item:hover {
+  color: white;
+  background-color: #8f1a1c;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.ads {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 55vh;
-  transition: all 0.3s ease;
 }
 
-.ad-img{
+.ad-img {
   width: 60%;
-  transition: transform 0.3s ease;
+}
+
+.dropdown {
+  position: relative;
+  padding: 0;
 
 }
 
-  .about {
+.dropbtn {
+  background-color: white;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Navbar Styles */
+
+
+
+/* About Us Section */
+.aboutus{
+  color: white;
+  background-color: #8f1a1c;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.about {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 60px;
   padding: 100px 0;
-  background-color: #fff8e1; 
+  background-color: #fff8e1;
   border-top: 4px solid #a4161a;
   border-bottom: 4px solid #a4161a;
-  transition: all 0.3s ease;
 }
 
 .about-img {
@@ -71,7 +129,6 @@
   max-width: 450px;
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .about-content {
@@ -82,7 +139,7 @@
 
 .about-content h1 {
   font-family: "Playfair Display", serif;
-  font-size: 2rem;        
+  font-size: 2rem;
   font-weight: 700;
   color: #a4161a;
   margin-bottom: 15px;
@@ -93,7 +150,7 @@
   display: block;
   width: 80px;
   height: 4px;
-  background-color: #f4c430; 
+  background-color: #f4c430;
   margin-top: 8px;
   border-radius: 2px;
 }
@@ -105,9 +162,12 @@
   color: #444;
   margin-bottom: 16px;
 }
+/* About Us Section */
 
+/* Footer Section */
+footer {
+  background-color:#8f1a1c;
+ width: 100%;
 
-
-
-
-
+}
+/* Footer Section */
