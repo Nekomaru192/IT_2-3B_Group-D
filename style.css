@@ -170,11 +170,14 @@ html {
   padding: 30px 0;
   border-bottom: 1px solid #e0e0e0;
   margin-bottom: 20px;
+  gap: 40px;
 }
 
 .footer-logos img {
-  height: 30px;
+  height:40px;
   margin: 0 15px;
+  vertical-align: middle;
+  object-fit: contain;
 }
 
 .footer-content {
@@ -191,7 +194,7 @@ html {
 }
 
 .footer-content h3 {
-  font-size: larger;
+  font-size:x-large;
   margin-bottom: 10px;
   font-weight: 200;
 }
@@ -211,12 +214,20 @@ html {
 }
 
 .footer-content a:hover {
-  text-decoration: underline;
+  color: white;
+  background-color: #8f1a1c;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.social-icons a:hover{
+  background-color: #c7c7c7;
+  padding: 10px 10px;
 }
 
 .social-icons {
   display: flex;
-  gap: 8px;
+  gap: 10px;
 }
 
 .social-icons img {
@@ -238,6 +249,8 @@ html {
   text-decoration: none;
   margin-left: 10px;
 }
+
+
 
 
 /* Footer Section */
