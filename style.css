@@ -1,16 +1,15 @@
-html {
+html{
   font-family: dm-sans, sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
-/* Navbar Section */
+
+/* Navbar Styles */
 .navbar {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 290px;
+  gap: 90px;
   padding: 10px 20px;
   border-bottom: 1px solid rgb(230, 225, 225);
 }
@@ -31,7 +30,7 @@ html {
   padding: 0;
 }
 
-.home {
+.home{
   color: white;
   background-color: #8f1a1c;
   border-radius: 10px;
@@ -46,20 +45,50 @@ html {
 }
 
 .ads {
-  width: 100%;
+  width: 500%;
   display: flex;
+   margin: 0;
+  padding: 0;
   justify-content: center;
   align-items: center;
   min-height: 55vh;
+  animation: slide 15s infinite;
+  animation-timing-function: ease-in-out;
 }
 
-.ad-img {
-  width: 60%;
+.ads img {
+  width: 20%;   
+  flex-shrink: 0;    
+  object-fit: cover; 
+  display: block;
+}
+
+/* .ad-img {
+  width: 70%;
+}
+
+.ad-img2 {
+  width: 70%;
+} */
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  min-height: 55vh;
+}
+@keyframes slide {
+  0%,16%  { transform: translateX(0%); }
+  20%, 36% {transform: translateX(-20%);}
+  40%, 56% {transform: translateX(-40%);}
+  60%, 76% {transform: translateX(-60%);}
+  80%, 96% {transform: translateX(-80%);}
+  100% { transform: translateX(-80%); }
 }
 
 .dropdown {
   position: relative;
   padding: 0;
+
 }
 
 .dropbtn {
@@ -77,7 +106,7 @@ html {
   border-radius: 15px;
   background-color: #f9f9f9;
   min-width: 130px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .dropdown-content a {
@@ -88,16 +117,18 @@ html {
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: #f1f1f1
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/* Navbar Section */
+/* Navbar Styles */
+
+
 
 /* About Us Section */
-.aboutus {
+.aboutus{
   color: white;
   background-color: #8f1a1c;
   border-radius: 10px;
@@ -163,94 +194,77 @@ html {
 /* About Us Section */
 
 /* Footer Section */
-.footer-logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 0;
-  border-bottom: 1px solid #e0e0e0;
-  margin-bottom: 20px;
-  gap: 40px;
+footer {
+background-color:#8f1a1c;
+color: #fff;
+ width: 100%;
+ padding: 40px 0 20px;
+ font-family: Arial, sans-serif;
 }
 
-.footer-logos img {
-  height:40px;
-  margin: 0 15px;
-  vertical-align: middle;
-  object-fit: contain;
-}
-
-.footer-content {
+.container {
   display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start; 
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  justify-content: space-between;
 }
 
-.footer-content .column {
-  padding: 0 20px;
-  min-width: 200px;
+.fsection {
+  flex: 1;
+  margin: 0 20px;
 }
 
-.footer-content h3 {
-  font-size:x-large;
+.fsection h3 {
+ font-size: 1.3rem;
   margin-bottom: 10px;
-  font-weight: 200;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 5px; 
 }
 
-.footer-content ul {
+.fsection ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
-.footer-content li {
-  margin-bottom: 20px;
+.fsection ul li {
+  margin: 6px 0;
 }
 
-.footer-content a {
+.fsection ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.fsection ul li a:hover {
+  color: #ffd700;
+}
+
+.fsection .btn {
+  display: inline-block;
+  background-color: #ffd700;
   color: #8f1a1c;
+  padding: 6px 14px;
+  border-radius: 4px;
   text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
-.footer-content a:hover {
-  color: white;
-  background-color: #8f1a1c;
-  border-radius: 10px;
-  padding: 10px 10px;
+.fsection .btn:hover {
+   background-color: #fff;
+  color: #8f1a1c;
 }
 
-.social-icons a:hover{
-  background-color: #c7c7c7;
-  padding: 10px 10px;
+.fbottom {text-align: center;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 30px;
+  padding-top: 10px;
 }
-
-.social-icons {
-  display: flex;
-  gap: 10px;
-}
-
-.social-icons img {
-  width: 24px;
-  height: 24px;
-}
-
-.footer-bottom {
-  text-align: center;
-  padding: 10px 0 20px 0;
-  font-size: 0.85em;
-  color: #666;
-  border-top: 1px solid #e0e0e0;
-  margin-top: 2rem;
-}
-
-.footer-bottom a {
-  color: #666;
-  text-decoration: none;
-  margin-left: 10px;
-}
-
-
-
 
 /* Footer Section */
