@@ -268,3 +268,27 @@ color: #fff;
 }
 
 /* Footer Section */
+/* kaibigan card edition yung border */
+
+.border-box h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: left;
+}
+
+.border-box {
+  border: 30px double rgba(232, 232, 134, 0.927); 
+  padding: 20px;  
+  width: 80%;              
+  margin: 20px auto;      
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+
+}
+
+/* kaibigan card edition yung border*/
+
+
