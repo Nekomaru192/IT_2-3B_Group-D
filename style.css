@@ -296,28 +296,35 @@ footer {
 }
 
 /* Footer Section */
-/* kaibigan card edition yung border */
+
 .gurologo {
   display: block;
-  margin: 30px 20px ;
+  margin: 30px auto;
   max-width: 50%;
-  height: 50%;
+  height: auto; 
 }
 
 .stulogo {
   display: block;
-  margin: 30px 20px ;
+  margin: 30px auto;
   max-width: 50%;
-  height: 50%;
+  height: auto; 
+  
 }
 
-.opislogo {
+/*.opislogo {
   display: block;
   margin: 30px 20px ;
   max-width: 50%;
   height: 50%;
 }
-
+*/
+.opislogo {
+  display: block;
+  margin: 30px auto;
+  max-width: 50%;
+  height: auto; 
+}
 .Guro-content {
   display: flex;
   justify-content: center;
@@ -326,7 +333,7 @@ footer {
   margin-top: 100;
   padding: 0;
 }
-
+/* kaibigan card edition yung border */
 .border-box h1 {
   font-size: 24px;
   margin-bottom: 10px;
@@ -350,3 +357,12 @@ footer {
 }
 
 /* kaibigan card edition yung border*/
+/* info box under ng border sa kaibigan card */
+.info-box { 
+  background-color: #dbece2;
+  border-left: 5px solid #88c1a1;
+  padding: 20px;
+  margin: 20px 0;
+  color: #000;
+  font-weight: 350;
+}
