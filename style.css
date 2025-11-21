@@ -168,8 +168,8 @@ html {
   gap: 60px;
   padding: 100px 0;
   background-color: #fff8e1;
-  border-top: 4px solid #a4161a;
-  border-bottom: 4px solid #a4161a;
+  /*border-top: 4px solid #a4161a;
+  border-bottom: 4px solid #a4161a; */
 }
 
 .about-img {
