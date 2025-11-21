@@ -1,4 +1,4 @@
-html{
+html {
   font-family: dm-sans, sans-serif;
 }
 
@@ -30,7 +30,7 @@ html{
   padding: 0;
 }
 
-.home{
+.home {
   color: white;
   background-color: #8f1a1c;
   border-radius: 10px;
@@ -47,7 +47,7 @@ html{
 .ads {
   width: 500%;
   display: flex;
-   margin: 0;
+  margin: 0;
   padding: 0;
   justify-content: center;
   align-items: center;
@@ -57,9 +57,9 @@ html{
 }
 
 .ads img {
-  width: 20%;   
-  flex-shrink: 0;    
-  object-fit: cover; 
+  width: 20%;
+  flex-shrink: 0;
+  object-fit: cover;
   display: block;
 }
 
@@ -76,13 +76,37 @@ html{
   overflow: hidden;
   min-height: 55vh;
 }
+
 @keyframes slide {
-  0%,16%  { transform: translateX(0%); }
-  20%, 36% {transform: translateX(-20%);}
-  40%, 56% {transform: translateX(-40%);}
-  60%, 76% {transform: translateX(-60%);}
-  80%, 96% {transform: translateX(-80%);}
-  100% { transform: translateX(-80%); }
+
+  0%,
+  16% {
+    transform: translateX(0%);
+  }
+
+  20%,
+  36% {
+    transform: translateX(-20%);
+  }
+
+  40%,
+  56% {
+    transform: translateX(-40%);
+  }
+
+  60%,
+  76% {
+    transform: translateX(-60%);
+  }
+
+  80%,
+  96% {
+    transform: translateX(-80%);
+  }
+
+  100% {
+    transform: translateX(-80%);
+  }
 }
 
 .dropdown {
@@ -106,7 +130,7 @@ html{
   border-radius: 15px;
   background-color: #f9f9f9;
   min-width: 130px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown-content a {
@@ -123,12 +147,13 @@ html{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 /* Navbar Styles */
 
 
 
 /* About Us Section */
-.aboutus{
+.aboutus {
   color: white;
   background-color: #8f1a1c;
   border-radius: 10px;
@@ -174,6 +199,7 @@ html{
   margin-bottom: 15px;
   position: relative;
 }
+
 .about-content h1::after {
   content: "";
   display: block;
@@ -191,21 +217,22 @@ html{
   color: #444;
   margin-bottom: 16px;
 }
+
 /* About Us Section */
 
 /* Footer Section */
 footer {
-background-color:#8f1a1c;
-color: #fff;
- width: 100%;
- padding: 40px 0 20px;
- font-family: Arial, sans-serif;
+  background-color: #8f1a1c;
+  color: #fff;
+  width: 100%;
+  padding: 40px 0 20px;
+  font-family: Arial, sans-serif;
 }
 
 .container {
   display: flex;
   justify-content: space-evenly;
-  align-items: flex-start; 
+  align-items: flex-start;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -217,11 +244,11 @@ color: #fff;
 }
 
 .fsection h3 {
- font-size: 1.3rem;
+  font-size: 1.3rem;
   margin-bottom: 10px;
   border-bottom: 2px solid #fff;
   display: inline-block;
-  padding-bottom: 5px; 
+  padding-bottom: 5px;
 }
 
 .fsection ul {
@@ -256,11 +283,12 @@ color: #fff;
 }
 
 .fsection .btn:hover {
-   background-color: #fff;
+  background-color: #fff;
   color: #8f1a1c;
 }
 
-.fbottom {text-align: center;
+.fbottom {
+  text-align: center;
   font-size: 0.9rem;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   margin-top: 30px;
@@ -269,7 +297,7 @@ color: #fff;
 
 /* Footer Section */
 /* kaibigan card edition yung border */
-.border-box .guro{
+.guro {
   display: block;
   margin: 0 auto;
   max-width: 100%;
@@ -281,31 +309,29 @@ color: #fff;
   justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
-  margin-top: 50px;
+  margin-top: 20px;
   padding: 0;
 }
 
 .border-box h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #333;
-    text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: left;
 }
 
 .border-box {
-  border: 30px double rgba(232, 232, 134, 0.927); 
-  padding: 20px;  
-  width: 80%;              
-  margin: 20px auto;      
+  border: 30px double rgba(232, 232, 134, 0.927);
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
   border-radius: 8px;
   background-color: white;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ /* display: flex;
   flex-direction: column;
-  align-items:center ;
-  justify-content: center;
+  align-items: center;
+  justify-content: center; */
 }
 
 /* kaibigan card edition yung border*/
-
-
