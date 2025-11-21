@@ -269,12 +269,27 @@ color: #fff;
 
 /* Footer Section */
 /* kaibigan card edition yung border */
+.border-box .guro{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.Guro-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin-top: 50px;
+  padding: 0;
+}
 
 .border-box h1 {
     font-size: 24px;
     margin-bottom: 10px;
     color: #333;
-    text-align: left;
+    text-align: center;
 }
 
 .border-box {
@@ -285,8 +300,10 @@ color: #fff;
   border-radius: 8px;
   background-color: white;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-
-
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  justify-content: center;
 }
 
 /* kaibigan card edition yung border*/
