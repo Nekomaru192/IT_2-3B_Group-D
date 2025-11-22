@@ -1,15 +1,17 @@
 html {
   font-family: dm-sans, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 
-/* Navbar Styles */
+/* Navbar Section */
 .navbar {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 90px;
+  gap: 290px;
   padding: 10px 20px;
   border-bottom: 1px solid rgb(230, 225, 225);
 }
@@ -30,7 +32,7 @@ html {
   padding: 0;
 }
 
-.home {
+.nav a.active {
   color: white;
   background-color: #8f1a1c;
   border-radius: 10px;
@@ -63,16 +65,10 @@ html {
   display: block;
 }
 
-/* .ad-img {
-  width: 70%;
-}
-
-.ad-img2 {
-  width: 70%;
-} */
-
 .slider {
-  width: 100%;
+  position: relative;
+  left: 26%;
+  width: 50%;
   overflow: hidden;
   min-height: 55vh;
 }
@@ -112,7 +108,7 @@ html {
 .dropdown {
   position: relative;
   padding: 0;
-
+   z-index: 9999;
 }
 
 .dropbtn {
@@ -141,24 +137,17 @@ html {
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #f1f1f1;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-/* Navbar Styles */
+/* Navbar Section */
 
 
 
 /* About Us Section */
-.aboutus {
-  color: white;
-  background-color: #8f1a1c;
-  border-radius: 10px;
-  padding: 10px 10px;
-}
 
 .about {
   display: flex;
@@ -218,82 +207,105 @@ html {
   margin-bottom: 16px;
 }
 
+.aboutfooter{
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+
 /* About Us Section */
 
 /* Footer Section */
+
 footer {
+  border-top: 3px solid ;
   background-color: #8f1a1c;
-  color: #fff;
-  width: 100%;
-  padding: 40px 0 20px;
-  font-family: Arial, sans-serif;
+  color: white;
+  border-top: 3px solid #fecc07;
 }
 
-.container {
+footer h3{
+  color:#fecc07;
+}
+.footer-logos {
   display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+  gap: 40px;
+}
+
+.footer-content {
+  display: flex;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  justify-content: space-between;
 }
 
-.fsection {
-  flex: 1;
-  margin: 0 20px;
+.footer-content .column {
+  padding: 0 20px;
+  min-width: 200px;
 }
 
-.fsection h3 {
-  font-size: 1.3rem;
+.footer-content h3 {
+  font-size:x-large;
   margin-bottom: 10px;
-  border-bottom: 2px solid #fff;
-  display: inline-block;
-  padding-bottom: 5px;
+  font-weight: 200;
 }
 
-.fsection ul {
+.footer-content ul {
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
-.fsection ul li {
-  margin: 6px 0;
+.footer-content li {
+  margin-bottom: 20px;
 }
 
-.fsection ul li a {
-  color: #fff;
+.footer-content a {
+  color: white;
   text-decoration: none;
-  transition: color 0.3s;
 }
 
-.fsection ul li a:hover {
-  color: #ffd700;
+.footer-content a:hover {
+  color: #fecc07;
+  border-radius: 10px;
+
 }
 
-.fsection .btn {
-  display: inline-block;
-  background-color: #ffd700;
-  color: #8f1a1c;
-  padding: 6px 14px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: bold;
-  margin-top: 10px;
+.social-icons {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 20px;
 }
 
-.fsection .btn:hover {
-  background-color: #fff;
-  color: #8f1a1c;
+.social-icons img {
+  width: 24px;
+  height: 24px;
 }
 
-.fbottom {
+.footer-bottom {
   text-align: center;
-  font-size: 0.9rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  margin-top: 30px;
-  padding-top: 10px;
+  font-size: 0.85em;
+  color: white;
+  border-top: 1px solid #000000;
+  margin-top: 2rem;
+  padding-bottom: 1px;
 }
+
+i{
+  margin-right: .5rem !important;
+  ;
+}
+
+.mailfooter {
+  align-items: center;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
 
 /* Footer Section */
 
@@ -350,6 +362,7 @@ footer {
 }
 
 /* kaibigan card edition yung border*/
+
 /* info box under ng border sa kaibigan card */
 .info-box { 
   background-color: #dbece2;
@@ -359,3 +372,4 @@ footer {
   color: #000;
   font-weight: 350;
 }
+/* info box under ng border sa kaibigan card */
