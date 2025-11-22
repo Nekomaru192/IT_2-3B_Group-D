@@ -241,7 +241,7 @@ footer h3{
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .footer-content .column {
@@ -286,11 +286,16 @@ footer h3{
   height: 24px;
 }
 
+hr{
+  width: 55%;
+  opacity: 0.3;
+}
+
 .footer-bottom {
   text-align: center;
   font-size: 0.85em;
   color: white;
-  border-top: 1px solid #000000;
+  border-style:;
   margin-top: 2rem;
   padding-bottom: 1px;
 }
