@@ -14,6 +14,8 @@ html {
   gap: 290px;
   padding: 10px 20px;
   border-bottom: 1px solid rgb(230, 225, 225);
+  position: relative;
+  z-index: 9999;
 }
 
 .nav-item {
@@ -71,6 +73,8 @@ html {
   width: 50%;
   overflow: hidden;
   min-height: 55vh;
+  position: relative;
+  z-index: 1;
 }
 
 @keyframes slide {
@@ -377,4 +381,5 @@ i{
   color: #000;
   font-weight: 350;
 }
+
 /* info box under ng border sa kaibigan card */
