@@ -8,10 +8,10 @@ html {
 /* Navbar Section */
 .navbar {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   align-items: center;
-  gap: 290px;
+  gap: 0;
   padding: 10px 20px;
   border-bottom: 1px solid rgb(230, 225, 225);
   position: relative;
@@ -23,6 +23,7 @@ html {
   text-decoration: none;
   font-size: larger;
   transition: all 0.3s ease;
+  padding: 8px 10px;
 }
 
 .nav {
@@ -49,7 +50,7 @@ html {
 }
 
 .ads {
-  width: 500%;
+  width: 400%;
   display: flex;
   margin: 0;
   padding: 0;
@@ -70,7 +71,7 @@ html {
 .slider {
   position: relative;
   left: 26%;
-  width: 50%;
+  width: 80%;
   overflow: hidden;
   min-height: 55vh;
   position: relative;
@@ -299,7 +300,7 @@ hr{
   text-align: center;
   font-size: 0.85em;
   color: white;
-  border-style:;
+  border-style: solid;
   margin-top: 2rem;
   padding-bottom: 1px;
 }
