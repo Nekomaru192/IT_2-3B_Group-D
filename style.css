@@ -8,14 +8,11 @@ html {
 /* Navbar Section */
 .navbar {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  justify-content: center;
   justify-content: space-between;
-  align-items: center;
-  gap: 0;
   padding: 10px 20px;
   border-bottom: 1px solid rgb(230, 225, 225);
-  position: relative;
-  z-index: 9999;
 }
 
 .nav-item {
@@ -31,8 +28,6 @@ html {
   align-items: center;
   gap: 28px;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 .nav a.active {
@@ -70,12 +65,10 @@ html {
 
 .slider {
    width: 100%;
-  max-width: 100%;
+  max-width: 50%;
   margin: 0 auto;
   overflow: hidden;
   min-height: 55vh;
-  position: relative;
-  z-index: 1;
 }
 
 @keyframes slide {
@@ -113,7 +106,7 @@ html {
 .dropdown {
   position: relative;
   padding: 0;
-   z-index: 9999;
+  z-index: 9999;
 }
 
 .dropbtn {
@@ -481,7 +474,7 @@ hr{
   text-align: center;
   font-size: 0.85em;
   color: white;
-  border-style: solid;
+
   margin-top: 2rem;
   padding-bottom: 1px;
 }
