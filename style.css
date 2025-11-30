@@ -143,21 +143,132 @@ html {
 }
 /* Navbar Section */
 
+
+/*Content*/
+
+.prodnews{
+  width:100% ;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#products {
+  margin-bottom: 40px;
+}
+
+.section-header{
+  display: flex;
+  gap: 350px;  
+  align-items: center;
+}
+
+.section-header h2 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.view-all {
+  padding: 6px 15px;
+  border: 1px solid #b00;
+  background: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card-grid {
+  margin-top: 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.product-card, .news-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  position: relative;
+}
+
+.product-card img, .news-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #ff2d2d;
+  padding: 4px 10px;
+  font-size: 12px;
+  color: white;
+  border-radius: 4px;
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.price {
+  color: #c30000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.views {
+  color: #777;
+  font-size: 14px;
+}
+
+.buy-btn{
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background: #ffcb00;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.read-btn {
+  margin-top: 10px;
+  background: #b00;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.meta {
+  font-size: 14px;
+  color: #666;
+}
+/*Content*/
+
 /*Store location*/
 
 .container {
-    width: 900px;
-    margin: 30px auto;
+  width: 900px;
+  margin: 30px auto;
 }
 
 .title {
-    color: #8b0000;
-    margin-bottom: 10px;
+  color: #8b0000;
+  margin-bottom: 10px;
 }
 
 .search-area {
-    position: relative;
-    margin-bottom: 20px;
+  position: relative;
+  margin-bottom: 20px;
 }
 
 .search-area input {
@@ -394,7 +505,6 @@ html {
 /* About Us Section */
 
 /* Footer Section */
-
 footer {
   border-top: 3px solid ;
   background-color: #8f1a1c;
@@ -489,9 +599,9 @@ i{
   margin-top: 4px;
   margin-bottom: 10px;
 }
-
-
 /* Footer Section */
+
+
 
 .gurologo {
   display: block;
