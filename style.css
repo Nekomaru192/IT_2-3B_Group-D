@@ -596,6 +596,7 @@ h3 {
 
 /* Footer Section */
 footer {
+  padding:10px 0 ;
   border-top: 3px solid ;
   background-color: #8f1a1c;
   color: white;
@@ -620,19 +621,19 @@ footer h3{
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
   justify-content: space-evenly;
 }
 
 .footer-content .column {
-  padding: 0 20px;
-  min-width: 200px;
+  padding: 0 10px;
+  min-width: 150px;
 }
 
 .footer-content h3 {
-  font-size:x-large;
-  margin-bottom: 10px;
-  font-weight: 200;
+  font-size: 1.1rem;
+  margin-bottom: 7px;
+  font-weight: 300;
 }
 
 .footer-content ul {
@@ -641,7 +642,8 @@ footer h3{
 }
 
 .footer-content li {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  line-height: 1.2;
 }
 
 .footer-content a {
@@ -657,18 +659,19 @@ footer h3{
 
 .social-icons {
   display: flex;
-  gap: 10px;
-  padding-bottom: 20px;
+  gap: 6px;
+  padding-bottom: 10px;
 }
 
 .social-icons img {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
 }
 
 hr{
-  width: 55%;
+  width: 50%;
   opacity: 0.3;
+  margin: 10px auto;
 }
 
 .footer-bottom {
@@ -676,8 +679,8 @@ hr{
   font-size: 0.85em;
   color: white;
 
-  margin-top: 2rem;
-  padding-bottom: 1px;
+  margin-top: 1rem;
+  padding-bottom: 2px;
 }
 
 i{
@@ -687,7 +690,7 @@ i{
 
 .mailfooter {
   align-items: center;
-  margin-top: 4px;
+  margin-top: 4px 0;
   margin-bottom: 10px;
 }
 
@@ -773,7 +776,7 @@ i{
 /* kaibigan card edition yung border*/
 
 /* info box under ng border sa kaibigan card */
-.info-box { 
+.g-info-box { 
   background-color: #dbece2;
   border-left: 5px solid #88c1a1;
   padding: 20px;
@@ -781,5 +784,24 @@ i{
   color: #000;
   font-weight: 350;
 }
+
+.o-info-box { 
+  background-color: #cedcec;
+  border-left: 5px solid #b4c8f3;
+  padding: 20px;
+  margin: 20px 0;
+  color: #000;
+  font-weight: 350;
+}
+
+.e-info-box { 
+  background-color: #ebc1c3;
+  border-left: 5px solid #be3e3e;
+  padding: 20px;
+  margin: 20px 0;
+  color: #000;
+  font-weight: 350;
+}
+
 
 /* info box under ng border sa kaibigan card */
