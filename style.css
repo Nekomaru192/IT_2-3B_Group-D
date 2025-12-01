@@ -290,10 +290,6 @@ h3 {
     font-size: 20px;
   }
 
-  .card-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-
   .prodnews {
     margin-top: 30px;
     margin-bottom: 30px;
