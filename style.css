@@ -64,7 +64,7 @@ html {
 }
 
 .slider {
-   width: 100%;
+  width: 200%;
   max-width: 50%;
   margin: 0 auto;
   overflow: hidden;
@@ -141,25 +141,45 @@ html {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+@media (max-width: 768px){
+  .slider {      
+    max-width: 100%; 
+    width: 100%;
+    min-height: 40vh; 
+  }
+}
 /* Navbar Section */
 
 
 /*Content*/
 
-.prodnews{
-  width:100% ;
+.container {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.prodnews {
+  width: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
 #products {
   margin-bottom: 40px;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 
-.section-header{
+.section-header {
   display: flex;
-  gap: 350px;  
+  gap: 350px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .section-header h2 {
@@ -183,17 +203,25 @@ html {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
-.product-card, .news-card {
+.product-card,
+.news-card {
   background: white;
   padding: 15px;
   border-radius: 10px;
   border: 1px solid #ddd;
   position: relative;
+  max-width: 100%;
+  overflow: hidden;
 }
 
-.product-card img, .news-card img {
+.product-card img,
+.news-card img {
   width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
   border-radius: 8px;
+  object-fit: cover;
 }
 
 .badge {
@@ -223,7 +251,7 @@ h3 {
   font-size: 14px;
 }
 
-.buy-btn{
+.buy-btn {
   margin-top: 10px;
   width: 100%;
   padding: 10px;
@@ -239,7 +267,6 @@ h3 {
   margin-top: 10px;
   background: #b00;
   color: white;
-  margin-top: 10px;
   padding: 10px;
   border: none;
   border-radius: 6px;
@@ -252,6 +279,69 @@ h3 {
   font-size: 14px;
   color: #666;
 }
+
+
+@media (max-width: 768px) {
+  .section-header {
+    gap: 50px;
+  }
+
+  .section-header h2 {
+    font-size: 20px;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .prodnews {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-header {
+    gap: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section-header h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .buy-btn,
+  .read-btn {
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  .prodnews {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .badge {
+    font-size: 11px;
+    padding: 3px 8px;
+  }
+}
+
 /*Content*/
 
 /*Store location*/
@@ -527,6 +617,7 @@ footer h3{
 
 .footer-content {
   display: flex;
+  flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -598,6 +689,30 @@ i{
   align-items: center;
   margin-top: 4px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column; 
+    }
+
+    .footer-content .column {
+        padding: 10px 0;
+        text-align: center; 
+ 
+    }
+
+    .footer-content .column:last-child {
+        border-bottom: none;
+    }
+
+    .social-icons {
+        justify-content: center; 
+    }
+
+    .footer-logos {
+        flex-wrap: wrap;
+    }
 }
 /* Footer Section */
 
