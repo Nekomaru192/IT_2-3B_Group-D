@@ -10,73 +10,239 @@
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nata+Sans:wght@100..900&display=swap"
       rel="stylesheet"
     />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
     <title>Pandayan Bookshop</title>
   </head>
   <body>
-    <div class="navbar">
-      <a href="" class="logo">
-        <img
-          src="./assets/images/pbs-logo-sm.svg"
-          alt="Pandayanlogo"
-          height="100"
-        />
-      </a>
-      <ul class="nav">
-        <li><a href="index.html" class="nav-item home">Home</a></li>
+    <section id="header-section">
+      <nav>
+        <div class="navbar">
+          <a href="" class="logo">
+            <img
+              src="./assets/images/pbs-logo-sm.svg"
+              alt="Pandayanlogo"
+              height="100"
+            />
+          </a>
+          <ul class="nav">
+            <li><a href="index.html" class="nav-item active">Home</a></li>
 
-        <div class="dropdown">
-          <button class="dropbtn nav-item" >Kaibigan Cards</button>
-          <div class="dropdown-content">
-            <a href="guro.html" >Guro</a>
-            <a href="#">Opisina</a>
-            <a href="#">Estudyante</a>
+            <div class="dropdown">
+              <button class="dropbtn nav-item">Kaibigan Cards</button>
+              <div class="dropdown-content">
+                <a href="guro.html">Guro</a>
+                <a href="opisina.html">Opisina</a>
+                <a href="estudyante.html">Estudyante</a>
+              </div>
+            </div>
+
+            <li><a href="storelocator.html" class="nav-item">Services</a></li>
+            <li><a href="about.html" class="nav-item ">About Us</a></li>
+          </ul>
+        </div>
+
+         <div class="slider"> 
+          <div class="ads">
+            <img src="./assets/images/ads.png" alt="" class="ad-img" />
+            <img src="./assets/images/RosasRegalo2025.png" alt="" class="ad-img2"/>
+            <img src="./assets/images/KaibiganCard.jpg" alt="" class="ad-img2"/>
+            <img src="./assets/images/Delivery.png" alt="" class="ad-img2"/>
+            <img src="./assets/images/ads.png" alt="" class="ad-img" />
+          </div>
+      </nav>
+    </section>
+      
+
+    <section id="products">
+      <div class="container">
+        <div class="section-header">
+         <h2>⭐ Featured Products</h2>
+         <h2>👁 Most Viewed</h2>
+        </div>
+        <!--PCard1-->
+        <div class="card-grid">
+          <div class="product-card">
+            <div class="badge">🔥 Trending</div>
+            <img src="./assets/images/365.jpg" alt="">
+            <h3>365 Days With The Lord</h3>
+            <p class="price">₱350.00</p>
+            <a href=""></a><button class="buy-btn">Buy Online</button></a>
+          </div>
+
+          <!--PCard2-->
+          <div class="product-card">
+            <div class="badge">🔥 Trending</div>
+            <img src="./assets/images/simbahay.jpg" alt="">
+            <h3>Simbahay 2026</h3>
+            <p class="price">₱270.00</p>
+            <a href=""><button class="buy-btn">Buy Online</button></a>
+          </div>
+
+          <!--PViewed-->
+          <div class="product-card">
+            <img src="./assets/images/80leaves.jpg" alt="">
+            <h3>Pandayan Intermediate Pad</h3>
+            <p class="views">👁️ 115 views</p>
           </div>
         </div>
 
-        <li><a href="" class="nav-item">Services</a></li>
-        <li><a href="about.html" class="nav-item">About Us</a></li>
-      </ul>
-    </div>
+        <hr class="prodnews">
 
-  <div class="slider"> 
-    <div class="ads">
-      <img src="./assets/images/ads.png" alt="" class="ad-img" />
-      <img src="./assets/images/RosasRegalo2025.png" alt="" class="ad-img2" >
-      <img src="./assets/images/KaibiganCard.jpg" alt="" class="ad-img2">
-      <img src="./assets/images/Delivery.png" alt="" class="ad-img2">
-      <!--duplicat una slide-->
-       <img src="./assets/images/ads.png" alt="" class="ad-img" />
-    </div>
+        <div class="section news-section">
+          <div class="section-header">
+            <h2>📰 Latest News & Events</h2>
+            <a href=""><button class="view-all">View All</button></a>
+          </div>
 
-  </div>
- 
-</div>
+          <div class="card-grid">
+            <!--NCard1-->
+            <div class="news-card">
+              <img src="./assets/images/nuevo.jpg" alt="">
+              <h3>Deli Arte Nuevo Pigment Liner</h3>
+              <p class="meta">Nov 29, 2025 • 20</p>
+              <a href=""><button class="read-btn">Read More</button></a>
+            </div>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="fsection">
-          <h3>Find Us</h3>
-          <p>123 Street <br> Philippines</p>
-          <p>Email: contact@email.com</p>
+              <!--NCard2-->
+            <div class="news-card">
+              <img src="./assets/images/chilsevano.jpg" alt="">
+              <h3>Bagong Sangay!</h3>
+              <p class="meta">Nov 29, 2025 • 17</p>
+              <a href=""><button class="read-btn">Read More</button></a>
+            </div>
+
+              <!--NCard3-->
+            <div class="news-card">
+              <img src="./assets/images/shop.jpg" alt="">
+              <h3>Soon to Open (Pandayan Vigan)</h3>
+              <p class="meta">Nov 29, 2025 • 69</p>
+              <a href=""><button class="read-btn">Read More</button></a>
+            </div>
+          </div>
         </div>
         
-        <div class="fsection">
-          <h3>Support Us</h3>
-          <ul>
-            <li><a href="#"> Donate</a></li>
-            <li><a href="#">Volunteer</a></li>
-            <li><a href="#">Partner with us</a></li>
-          </ul>
+        <hr class="prodnews">
+
+        <div class="section news-section">
+          <div class="section-header">
+            <h2>Samalikha (Kwentong Panday)</h2>           
+          </div>
+
+          <div class="card-grid">
+            <!--NCard1-->
+            <div class="news-card">
+              <img src="./assets/images/exinteg.jpg" alt="">
+              <h3>Deli Arte Nuevo Pigment Liner</h3>
+              <p class="meta">Nov 29, 2025 • 20</p>
+              <a href=""><button class="read-btn">Read More</button></a>
+            </div>
+
+              <!--NCard2-->
+            <div class="news-card">
+              <img src="./assets/images/gulayan.jpg" alt="">
+              <h3>Bagong Sangay!</h3>
+              <p class="meta">Nov 29, 2025 • 17</p>
+              <a href=""><button class="read-btn">Read More</button></a>
+            </div>
+
+              <!--NCard3-->
+            <div class="news-card">
+              <img src="./assets/images/impluwensya.jpg" alt="">
+              <h3>Soon to Open (Pandayan Vigan)</h3>
+              <p class="meta">Nov 29, 2025 • 69</p>
+              <a href=""><button class="read-btn">Read More</button></a>
+            </div>
+          </div>
         </div>
-        <div class="fsection">
-          <h3>Kaibigan Card</h3>
-          <p>Join our rewards program and enjoy exclusive perks for every purchase.</p>
-          <a href="#" class="btn">Learn More</a>
+
+        <hr class="prodnews">
+
+        <div class="section news-section">
+          <div class="section-header">
+            <h2>Good Governance</h2>
+            
+          </div>
+
+          <div class="card-grid">
+            <!--NCard1-->
+            <div class="news-card">
+              <img src="./assets/images/nuevo.jpg" alt="">
+              <h3>Deli Arte Nuevo Pigment Liner</h3>
+              <p class="meta">Nov 29, 2025 • 20</p>
+              <a href=""><button class="read-btn">Read More</button></a>
+            </div>
+
+              <!--NCard2-->
+            <div class="news-card">
+              <img src="./assets/images/chilsevano.jpg" alt="">
+              <h3>Bagong Sangay!</h3>
+              <p class="meta">Nov 29, 2025 • 17</p>
+              <a href=""><button class="read-btn">Read More</button></a>
+            </div>
+
+              <!--NCard3-->
+            <div class="news-card">
+              <img src="./assets/images/shop.jpg" alt="">
+              <h3>Soon to Open (Pandayan Vigan)</h3>
+              <p class="meta">Nov 29, 2025 • 69</p>
+              <a href=""><button class="read-btn">Read More</button></a>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="fbottom">
-        <p>© 2025 Kaibigan. All rights reserved.</p></p>
-      </div>
-    </footer>
+    </section>
+
+
+    <section id="footer-section">
+      <footer>
+        <div class="footer-content">
+          <div class="column">
+            <h3>Pandayan Bookshop</h3>
+            <p>
+              Kabalikat sa Pag-aaral. Katuwang sa Pag-asenso.
+            </p>
+            <div class="social-icons">
+              <a href="#"><img src="./assets/images/facebook.png" alt="Facebook" /></a>
+              <a href="#"><img src="./assets/images/youtube.png" alt="YouTube" /></a>
+              <a href="#"><img src="./assets/images/instagram.png" alt="Instagram" /></a>
+            </div>
+            
+            <div class="mailfooter"> 
+              <i class="bi bi-telephone"></i> (042) 540-2025 
+              <br><br>
+              <i class="bi bi-envelope"></i>
+              <a href="mailto:n@pandayan.net">n@pandayan.net</a>    
+            </div>
+          </div>
+
+          <div class="column">
+            <h3>Support</h3>
+            <ul>
+              <li><a href="index.html" class="anc">Home</a></li>
+              <li><a href="about.html" class="anc">About</a></li>
+              <li><a href="storelocator.html" class="anc">Store Locator</a></li>
+            </ul>
+          </div>
+
+          <div class="column">
+            <h3>Kaibigan Card</h3>
+            <ul>
+              <li><a href="guro.html" class="anc">Guro</a></li>
+              <li><a href="opisina.html" class="anc">Opisina</a></li>
+              <li><a href="estudyante.html" class="anc">Estudyante</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        
+        <div class="footer-bottom">
+          <p>
+            &copy; Copyright 2025 All Rights Reserved by Pandayan Bookshop Inc.
+          </p>
+        </div>
+
+      </footer>
+    </section>
   </body>
 </html>
