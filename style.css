@@ -227,6 +227,8 @@ footer {
   width: 100%;
   padding: 40px 0 20px;
   font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 0.9rem;
 }
 
 .container {
