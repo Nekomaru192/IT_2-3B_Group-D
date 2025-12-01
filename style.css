@@ -28,6 +28,8 @@ html {
   align-items: center;
   gap: 28px;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav a.active {
@@ -168,11 +170,7 @@ html {
     position: absolute;
     display: none;
     background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    padding: 12px 16px;
     border-radius: 5px;
-    top: 100%;
-    left: 0;
     z-index: 1;
   }
 
@@ -184,8 +182,40 @@ html {
     padding: 10px 10px;
     font-size: small;
   }
+
+  nav img{
+    width: 300px;
+  }
 }
 
+@media (max-width: 480px) {
+  .ads img{
+    padding-bottom: 0;
+  }
+  
+  .navbar {
+    padding: 10px 10px;
+  }
+
+  .logo img {
+    height: 70px;
+  }
+
+  .nav {
+    gap: 5px;
+  }
+
+  .nav-item,
+  .nav a {
+    font-size: x-small;
+    padding: 5px 6px;
+  }
+
+  .dropdown-content a {
+    padding: 8px 8px;
+    font-size: x-small;
+  }
+}
 /* Navbar Section */
 
 
@@ -570,8 +600,6 @@ h3 {
   gap: 60px;
   padding: 100px 0;
   background-color: #fff8e1;
-  /*border-top: 4px solid #a4161a;
-  border-bottom: 4px solid #a4161a; */
 }
 
 .about-img {
@@ -753,7 +781,7 @@ i{
 /* Footer Section */
 
 
-
+/* Guro Section */
 .gurologo {
   display: block;
   margin: 30px auto;
@@ -783,7 +811,9 @@ i{
   margin-top: 100;
   padding: 0;
 }
-/* kaibigan card edition yung border */
+/* Guro Section */
+
+/* kaibigan card edition border */
 .border-box h1 {
   font-size: 24px;
   margin-bottom: 10px;
@@ -800,15 +830,12 @@ i{
   border-radius: 8px;
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
- /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
 }
 
-/* kaibigan card edition yung border*/
+/* kaibigan card edition border*/
 
-/* info box under ng border sa kaibigan card */
+
+/* info box under kaibigan card */
 .g-info-box { 
   background-color: #dbece2;
   border-left: 5px solid #88c1a1;
@@ -835,6 +862,4 @@ i{
   color: #000;
   font-weight: 350;
 }
-
-
-/* info box under ng border sa kaibigan card */
+/* info box under kaibigan card */
