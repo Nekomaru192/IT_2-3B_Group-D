@@ -189,9 +189,6 @@ html {
 }
 
 @media (max-width: 480px) {
-  .ads img{
-    padding-bottom: 0;
-  }
   
   .navbar {
     padding: 10px 10px;
@@ -225,7 +222,12 @@ html {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
+
 }
+.container h2{
+  color: #8f1a1c;
+}
+
 .prodnews {
   width: 100%;
   margin-top: 50px;
@@ -346,6 +348,7 @@ h3 {
   font-size: 14px;
   color: #666;
 }
+
 
 
 @media (max-width: 768px) {
