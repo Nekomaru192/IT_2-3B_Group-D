@@ -661,7 +661,7 @@ i{
 /* kaibigan card edition yung border*/
 
 /* info box under ng border sa kaibigan card */
-.info-box { 
+.g-info-box { 
   background-color: #dbece2;
   border-left: 5px solid #88c1a1;
   padding: 20px;
@@ -669,5 +669,24 @@ i{
   color: #000;
   font-weight: 350;
 }
+
+.o-info-box { 
+  background-color: #cedcec;
+  border-left: 5px solid #b4c8f3;
+  padding: 20px;
+  margin: 20px 0;
+  color: #000;
+  font-weight: 350;
+}
+
+.e-info-box { 
+  background-color: #ebc1c3;
+  border-left: 5px solid #be3e3e;
+  padding: 20px;
+  margin: 20px 0;
+  color: #000;
+  font-weight: 350;
+}
+
 
 /* info box under ng border sa kaibigan card */
